@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="bg-danger-subtle">
+    <h1 class="text-center text-capitalize fs-3 my-4 bg-danger text-white p-2 rounded mx-auto">image slider</h1>
+    <div class="container mb-5 ">
+        <div class="row g-3 border">
+            
+        </div>
+    </div>
+    <div class="position-absolute top-0 left-0 w-100 h-100 parent d-flex justify-content-center align-items-center">
+        <div class="child position-relative ">
+            <i class="fa-solid fa-xmark position-absolute text-danger fs-5" onclick = "closeFunction()"></i>
+            <i class="fa-solid fa-arrow-left position-absolute text-danger fs-5" onclick = "leftMove()"></i>
+            <i class="fa-solid fa-arrow-right position-absolute text-danger fs-5" onclick = "rightMove()"></i>
+        </div>
+    </div>
+    <script src="JS/index.js"></script>
+</body>
+</html>
